@@ -1,7 +1,7 @@
 #use doule quote if you need a quote on the type
-course = "python's couse for beginners"
+course = "python's course for beginners"
 #use single quotes if you need a double quote in the text
-course = 'pythons couse for "beginners"'
+course = 'pythons cousre for "beginners"'
 
 #use three quotes for longer message types 
 
