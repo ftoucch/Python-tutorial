@@ -1,0 +1,17 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<div class="profile-page layout layout--3">
+    <div class="container">
+        <div class="topics">
+        {% include 'base/topics_component.html' %}
+        </div>
+        <div class="roomList">
+            {% include 'base/feed_component.html' %}
+        </div>
+        <div class="activities">
+            {% include 'base/activity_component.html' %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
